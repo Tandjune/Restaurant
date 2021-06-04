@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}/* ca permett de prendre en compte les paddings et les bordures lorsqu'on donne des largeurs */
+h2 p {
+    color:blue;
+}
+.title-big{
+    left: 0;
+    top: 0;
+    color: rgba(192, 159, 88, 0.514);
+    text-transform: uppercase;
+}
+header{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    background-color: black;
+    background-image: url("images/img_restaurant_le_florent.jpg") ;
+    background-position: bottom bottom;
+    background-size: cover;
+    background-attachment:fixed ;
+}
+
+/*header img{
+    width: 1519px;
+    height: 500px;
+}*/
+header nav{
+    height:20px;
+    background-color:rgb(255, 255, 255, 0.4);
+    background-size: contain;
+}
+
+header nav a{
+    padding: 0 10px;
+    text-decoration:none ;
+    color: black;
+    font-weight: bold;
+    
+}
+header nav a:hover{
+    background-color: rgb(255, 255, 255,0.6) ;
+}
+body{
+    background-color: lightgray;
+    margin: 0;
+    line-height: 1.4;
+    font-family: sans-serif;
+   
+}
+
+footer{
+    background-color:gray;
+    padding: 0 5px;
+    height: 135px;
+}
+article{
+    padding: 0 5px;
+    width: 50%;
+    height: auto;
+    overflow-wrap: break-word;
+    
+    font-size: 15px;
+}
+article p{
+    text-indent: 20px;
+}
+footer p{
+    margin: 0;
+}
+footer iframe{
+    height: 80px;
+}
+
+article p::first-letter{
+    font-size: 130%;
+}
+.float{
+    float:right;
+    width: 150px;
+    height: 300px;
+}
+h2{
+    clear: both;
+}
+
+
+
+
